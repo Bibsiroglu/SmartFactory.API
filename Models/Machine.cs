@@ -1,0 +1,9 @@
+namespace SmartFactory.API.Models
+{
+    public class Machine
+    {
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public string? Status { get; set; }
+    }
+}
